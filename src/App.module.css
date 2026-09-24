@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+  font-family: 'Halve Neue', Helvetica, Arial, Sans-serif;
+  background-color: #141414;
+  color: #ffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+ ::-webkit-scrollbar-{
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.container{
+    width: 100%;
+    padding:  20px 4%;
+    box-sizing: border-box;
+}

@@ -1,0 +1,28 @@
+.container {
+  padding: 20px 0;
+  min-height: 80vh;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.emptyState {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.emptyStateTitle {
+  color: #666;
+}
+
+.emptyStateText {
+  color: #444;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}

@@ -8,7 +8,7 @@ export function Navbar() {
         <nav className={styles['menu-nav']}>
             <div className={styles.logo}>
                 <Link to="/" className={styles['titulo-principal']}>
-                    KaFlix 🎥
+                    Streamia 🎥
                 </Link>
             </div>
             <ul className={styles['nav-links']}>
